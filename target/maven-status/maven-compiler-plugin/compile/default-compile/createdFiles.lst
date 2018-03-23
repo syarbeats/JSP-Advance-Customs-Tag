@@ -2,8 +2,10 @@ com\cdc\mitrais\model\CustomerBean.class
 com\cdc\mitrais\service\CoinBean.class
 com\cdc\mitrais\tags\MakeTableTag.class
 com\cdc\mitrais\controller\CustomerList.class
-com\cdc\mitrais\controller\SimpleLoopTest.class
 com\cdc\mitrais\tags\MakeTableTagV2.class
+com\cdc\mitrais\controller\LoopTest.class
+com\cdc\mitrais\tags\ForEachTag.class
+com\cdc\mitrais\controller\SimpleLoopTest.class
 com\cdc\mitrais\service\WorldRecords.class
 com\cdc\mitrais\model\ProductBean.class
 com\cdc\mitrais\tags\ForTag.class
