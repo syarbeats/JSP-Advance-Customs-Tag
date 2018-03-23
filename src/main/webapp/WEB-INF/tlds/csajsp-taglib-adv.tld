@@ -47,7 +47,40 @@
       Given an array of arrays, puts values into a table
     </description>
     <name>makeTable</name>
-    <tag-class>coreservlets.tags.MakeTableTag</tag-class>
+    <tag-class>com.cdc.mitrais.tags.MakeTableTag</tag-class>
+    <body-content>scriptless</body-content>
+    <attribute>
+      <description>
+        An array of arrays. The top-level arrays
+        represents the rows, the sub-arrays represent
+        the column entries. 
+      </description>
+      <name>rowItems</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description>
+        Style sheet class name for table header. 
+      </description>
+      <name>headerClass</name>
+      <required>false</required>
+    </attribute>
+    <attribute>
+      <description>
+        Style sheet class name for table body. 
+      </description>
+      <name>bodyClass</name>
+      <required>false</required>
+    </attribute>
+  </tag>
+
+	<tag>
+    <description>
+      Given an array of arrays, puts values into a table
+    </description>
+    <name>makeTableV2</name>
+    <tag-class>com.cdc.mitrais.tags.MakeTableTagV2</tag-class>
     <body-content>scriptless</body-content>
     <attribute>
       <description>
@@ -80,7 +113,7 @@
       Loops down each element in an array
     </description>
     <name>forEach</name>
-    <tag-class>coreservlets.tags.ForEachTag</tag-class>
+    <tag-class>com.cdc.mitrais.tags.ForEachTag</tag-class>
     <body-content>scriptless</body-content>
     <attribute>
       <description>
@@ -103,7 +136,7 @@
   <tag>
     <description>If tag</description>
     <name>if</name>
-    <tag-class>coreservlets.tags.IfTag</tag-class>
+    <tag-class>com.cdc.mitrais.tags.IfTag</tag-class>
     <body-content>scriptless</body-content>
     <attribute>
       <description>Condition of the if</description>
@@ -116,14 +149,14 @@
   <tag>
     <description>Then tag (goes with If tag)</description>
     <name>then</name>
-    <tag-class>coreservlets.tags.ThenTag</tag-class>
+    <tag-class>com.cdc.mitrais.tags.ThenTag</tag-class>
     <body-content>scriptless</body-content>
   </tag>
   
   <tag>
     <description>Else tag (goes with If tag)</description>
     <name>else</name>
-    <tag-class>coreservlets.tags.ElseTag</tag-class>
+    <tag-class>com.cdc.mitrais.tags.ElseTag</tag-class>
     <body-content>scriptless</body-content>
   </tag>
 </taglib>

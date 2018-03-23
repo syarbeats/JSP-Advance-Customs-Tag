@@ -10,8 +10,18 @@
   	<description></description>
   	<servlet-class>com.cdc.mitrais.controller.SimpleLoopTest</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>ShowRecords</servlet-name>
+  	<display-name>ShowRecords</display-name>
+  	<description></description>
+  	<servlet-class>com.cdc.mitrais.controller.ShowRecords</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>SimpleLoopTest</servlet-name>
   	<url-pattern>/SimpleLoopTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowRecords</servlet-name>
+  	<url-pattern>/ShowRecords</url-pattern>
   </servlet-mapping>
 </web-app>
